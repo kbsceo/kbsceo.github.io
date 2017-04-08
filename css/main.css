@@ -94,7 +94,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 .footer { padding-bottom: 3em; margin: auto; font-size: 12px; font-family: Open Sans; color: #959595; }
 
 /* Individual Posts ============================================== */
-.page-content { padding: 30px 0; text-align: justify; }
+.page-content { padding: 30px 0; text-align: center; }
 
 .page-heading { font-size: 20px; padding-top: 2px; }
 
@@ -113,7 +113,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 .post-title { font-size: 42px; letter-spacing: -1px; line-height: 1; }
 @media screen and (max-width: 700px) { .post-title { font-size: 36px; } }
 
-.post-content { margin-bottom: 30px;         /* h2 { font-size: 32px;
+.post-content { margin-bottom: 30px; padding-left:500px; padding-right:500px;     /* h2 { font-size: 32px;
  @include media-query($on-laptop) { font-size: 28px; } }
  h3 { font-size: 26px;
  @include media-query($on-laptop) { font-size: 22px; } }
